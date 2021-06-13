@@ -1,0 +1,39 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "My First NodeJS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "server": "nodemon server.js",
+    "build": "webpack --node=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laaniakea/nodeServer.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Paragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laaniakea/nodeServer/issues"
+  },
+  "homepage": "https://github.com/Laaniakea/nodeServer#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}

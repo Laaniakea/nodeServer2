@@ -8,4 +8,4 @@ const checkSize = (req, res, next) => {
     }
     next();
 }
-export default { log, checkSize };
+export { log, checkSize };

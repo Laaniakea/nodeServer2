@@ -11,4 +11,4 @@ const html = (req, res) => {
     const param = req.params.param || "Html";
     res.end(`<h1>Hello ${param} Server!</h1>`);
 };
-export default { root, text, html };
+export { root, text, html };
